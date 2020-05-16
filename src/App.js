@@ -23,10 +23,11 @@ export default class App extends Component {
       this.setState({ contacts });
     }
   }
+
   componentDidUpdate(prevProps, prevState) {
     const { contacts } = this.state;
     if (prevState.tasks !== contacts) {
-      localStorage.setItem('contacts', JSON.stringify(contacts))
+      localStorage.setItem('contacts', JSON.stringify(contacts));
     }
   }
 
