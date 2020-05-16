@@ -1,0 +1,9 @@
+.contactList {
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contactListItem {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

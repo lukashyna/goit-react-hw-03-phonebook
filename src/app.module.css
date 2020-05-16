@@ -1,0 +1,21 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.phonebook {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contactForm {
+  margin-bottom: 20px;
+}
+.contacts {
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
